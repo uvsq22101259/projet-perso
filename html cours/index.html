@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+ <!-- le titre-->
+    <title>cours html</title>
+    <!-- icone de l'onglet-->
+    <link rel="shortcut icon" href="logo.png">
+
+</head>
+
+<body>
+    <header>
+        <h1> texte -  </h1>
+        <p>    texte basique.<em> voici un texte en italique</em> <strong> et un texte en gras</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto omnis adipisci, natus dignissimos soluta libero iure temporibus repellat architecto laudantium provident reprehenderit nesciunt reiciendis iste, ipsam sed repellendus? Asperiores quidem architecto commodi facere?</p>
+    </header>
+    <section>
+        
+        <div>
+            <h2> photo -  </h2>
+            <img src="fuck.jpeg" height= "200" alt="doigt">
+        </div>
+        <div>
+            <h3> liste -  </h3>
+            <ul>
+                <li> UL = unordered list </li>
+                <li> UL = unordered list </li>
+                <li> UL = unordered list </li>
+            </ul>
+            <ol>
+                <li> OL = ordered list</li>
+                <li> OL = ordered list</li>
+                <li> OL = ordered list</li>
+            </ol>
+        </div>
+        <div>
+            <h4> tableau  </h4>
+            <table border="1" width="50%">
+                <!--legende-->
+                <caption> populations d'europe</caption>
+                <!--en-tete-->
+                <thead>
+                    <th> pays</th>
+                    <th> population</th>
+                </thead>
+                <!--corps du tableau-->
+                <tbody>
+                    <tr>
+                        <td>italie</td>
+                        <td>36M</td>
+                    </tr>
+                    <tr>
+                        <td> France</td>
+                        <td>66M</td>
+                    </tr>
+                    <tr>
+                        <td> allemagne</td>
+                        <td>24M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5>  liens vers un autre site  </h5>
+            <a href="https://www.instagram.com/kanga_elie/" target="-blank"> insta du bg</a>
+            <br>
+            <a href="https://www.instagram.com/ad4m.kambou/" target="-blank"> le moche</a>
+        </div>
+        <div>
+            <h6> video </h6>
+            <video src="video.mp4" autoplay loop muted height=" 250"></video>
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2> <strong> formulaire</strong></h2>
+        <form action="/action.php" method="post">
+            <label for="name">Nom </label>
+            <input id="name" type="text" placeholder="rentre ton nom FDP"><br>
+
+
+            <label for="age">age </label>
+            <input id="age" type="number" placeholder="rentre ton age FDP" min="0" max="99" step="2" value="18"><br>
+
+
+            <label for="gender">genre</label>
+            <select name="" id="gender">
+                <option selected value="homme">homme</option>
+                <option value="femme">femme</option>
+            </select><br>
+            <div>
+                <input type="radio" name="type" checked id="human">
+                <label for="human">humain</label><br>
+
+                <input type="radio" name="type" id="dog">
+                <label for="dog">chien</label><br>
+
+                <input type="radio" name="type" id="catname=">
+                <label for="cat">chat</label><br>
+            </div>
+            <textarea placeholder="ta motivation"  cols="30" rows="10"></textarea><br>
+            <!--checkbox-->
+            <label for=""><input type="checkbox"> accepter</label><br>
+            <input type="submit" value="valider">
+        </form>
+    </section>
+    <br>
+    <footer>
+        <a href="mailto:eliekanga.business@gmail.com">ecris-moi</a>
+        <br>
+        <a href="fuck.jpeg" download="fuck">telecharger ma suprise</a>
+    </footer>
+
+
+</body>
+</html>
