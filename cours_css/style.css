@@ -1,0 +1,31 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+@font-face {
+    font-family: "font-1";
+    src: url(assets/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+body{
+
+    font-family: "font-1", cursive;
+}
+
+h1{
+    /*majuscule*/
+    text-transform: uppercase; 
+    /*espacement des lettres*/
+    letter-spacing: 3px;
+    /* taille police, 1rem = 16px*/
+    font-size: 2.5rem;
+    /*couleur*/
+    color: rgb(29, 145, 190);
+    /*mettre une ombre au texte*/ /* les données sont : x y le flou*/
+    text-shadow: 5px 0px 10px rgb(5, 230, 181);
+    /*positionnement du texte*/
+    text-align: center;
+    /* pour changer de police aller sur google front et prndre import(voir ligne 1)*/
+    /*on peut aussi telecharger la police*/
+    font-family: 'Island Moments', cursive;
+}
