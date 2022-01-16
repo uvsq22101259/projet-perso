@@ -22,7 +22,7 @@ h1{
     /*couleur*/
     color: rgb(29, 145, 190);
     /*mettre une ombre au texte*/ /* les données sont : x y le flou*/
-    text-shadow: 5px 0px 10px rgb(5, 230, 181);
+    text-shadow: 5px 0px 8px rgba(5, 230, 181, 0.911);
     /*positionnement du texte*/
     text-align: center;
     /* pour changer de police aller sur google front et prndre import(voir ligne 1)*/
