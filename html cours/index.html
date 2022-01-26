@@ -12,18 +12,30 @@
 </head>
 
 <body>
+    <!--haut de la page-->
     <header>
         <h1> texte -  </h1>
-        <p>    texte basique.<em> voici un texte en italique</em> <strong> et un texte en gras</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto omnis adipisci, natus dignissimos soluta libero iure temporibus repellat architecto laudantium provident reprehenderit nesciunt reiciendis iste, ipsam sed repellendus? Asperiores quidem architecto commodi facere?</p>
+        <!-- modification et insertion de texte-->
+        <p>    
+            texte basique.
+            <em> voici un texte en italique</em> 
+            <strong> et un texte en gras</strong> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto omnis adipisci, natus dignissimos soluta libero iure temporibus repellat architecto laudantium provident reprehenderit nesciunt reiciendis iste, ipsam sed repellendus? Asperiores quidem architecto commodi facere?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, vel maxime error, autem maiores assumenda quasi laudantium architecto et tenetur magni reiciendis quam debitis ab saepe aperiam ex perferendis repudiandae!
+        </p>
     </header>
+    <hr>
     <section>
         
         <div>
             <h2> photo -  </h2>
+            <!-- importer une photo-->
             <img src="fuck.jpeg" height= "200" alt="doigt">
         </div>
+        <hr>
         <div>
             <h3> liste -  </h3>
+            <!--cree des listes-->
             <ul>
                 <li> UL = unordered list </li>
                 <li> UL = unordered list </li>
@@ -35,6 +47,7 @@
                 <li> OL = ordered list</li>
             </ol>
         </div>
+        <hr>
         <div>
             <h4> tableau  </h4>
             <table border="1" width="50%">
@@ -59,38 +72,55 @@
                         <td> allemagne</td>
                         <td>24M</td>
                     </tr>
+                    <tr>
+                        <td> .</td>
+                    </tr>
+                    <tr> 
+                        <td></td>
+                        <td> 2</td>
+                        <td> 3</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
+        <hr>
         <div>
             <h5>  liens vers un autre site  </h5>
+            <!-- ajouter des lien -->
             <a href="https://www.instagram.com/kanga_elie/" target="-blank"> insta du bg</a>
             <br>
             <a href="https://www.instagram.com/ad4m.kambou/" target="-blank"> le moche</a>
         </div>
+        <hr>
         <div>
+            <!--mettre une video-->
             <h6> video </h6>
             <video src="video.mp4" autoplay loop muted height=" 250"></video>
         </div>
     </section>
+    <hr>
     <br>
     <section>
         <h2> <strong> formulaire</strong></h2>
+        <!--permet de creer un formulairee-->
         <form action="/action.php" method="post">
+            <!--cree une entre-->
             <label for="name">Nom </label>
             <input id="name" type="text" placeholder="rentre ton nom FDP"><br>
 
-
+            <!--cree une entre pour des nombres -->
             <label for="age">age </label>
             <input id="age" type="number" placeholder="rentre ton age FDP" min="0" max="99" step="2" value="18"><br>
 
 
             <label for="gender">genre</label>
+            <!--cree une selection avec option deroulente -->
             <select name="" id="gender">
                 <option selected value="homme">homme</option>
                 <option value="femme">femme</option>
             </select><br>
             <div>
+                <!-- cree une selection à plusieurs option (les mettre de meme nom les relie et on ne peut en choisir qu'un seul)-->
                 <input type="radio" name="type" checked id="human">
                 <label for="human">humain</label><br>
 
@@ -100,19 +130,50 @@
                 <input type="radio" name="type" id="catname=">
                 <label for="cat">chat</label><br>
             </div>
+            <!-- crèe un espece de texte-->
             <textarea placeholder="ta motivation"  cols="30" rows="10"></textarea><br>
-            <!--checkbox-->
+            <!--checkbox, carré a valider-->
             <label for=""><input type="checkbox"> accepter</label><br>
+            <!--valider le formulaire-->
             <input type="submit" value="valider">
         </form>
     </section>
     <br>
+    <hr>
+    <!--bas de la page-->
     <footer>
+        <!--attribue un lien a un mot préciser(telechargement,email, ...etc)-->
         <a href="mailto:eliekanga.business@gmail.com">ecris-moi</a>
         <br>
+        <!--attribue un lien a un mot préciser(telechargement,email, ...etc)-->
         <a href="fuck.jpeg" download="fuck">telecharger ma suprise</a>
     </footer>
 
 
 </body>
+<!--fin de la page-->
 </html>
+<!--
+formulaire
+    placeholder: permet de mettre des textes qui disparaissent quand on comment a ecrire.
+    label: permettent de nommer les elements du formulaires.
+br: permet de revenir a la ligne 
+hr: fait une separation horizontale
+tableau
+    table: permet de configurer le tableau
+    th: cree l'en-tete.
+    caption: cree la legendes.
+    tdbody: permet de creer le corps du tableau.
+    tr: permet de creer une nouvelle ligne du tableau.
+    td: permet de remplir la ligne du tableau de façon ordonné.
+liste 
+    liste non ordonne
+        ul: permet de creer une liste qui n'est pas numeroté
+    liste ordonne
+        ol: permets de crer une liste qui est numeroté
+    li: cree les elements de la liste
+texte
+    p: cree des paragraphes
+    em: mets des textes en italiques
+    strong: mets les textes en gras
+-->
