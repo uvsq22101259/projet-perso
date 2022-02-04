@@ -28,6 +28,7 @@ def deplacement(event):
     if fautes == 3:
         circuit.create_rectangle((0,0),(500,500),fill= "white", outline= "white")
         circuit.create_text( 250 , 250 , text = "game\nover " , fill= "red", font= "40")
+        circuit.quit()
         
     if (0-14) <= x <= (420+14) and (50-14) <= y <= (57+14):
         circuit.config(bg=couleurs)
