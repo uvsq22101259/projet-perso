@@ -105,6 +105,7 @@ def deplacement(event):
     if (400-14) <= x <= (500+14) and (450-14) <= y <= (457+14):
         circuit.config(bg=couleurs)   
         fautes += 1
+
     
 
 fautes = 0  
