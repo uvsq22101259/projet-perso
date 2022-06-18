@@ -13,7 +13,7 @@ def egal ():
     calcul.insert(0,equation)
 
 racine = tk.Tk()
-racine.title("calculatrice")
+racine.title("calculatrice de elie")
 calcul = tk.Entry(racine, width = 30)
 calcul.grid(column=0 , row=0, columnspan=3)
 
